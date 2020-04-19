@@ -27,6 +27,7 @@ public class PaymentController {
 
 	@GetMapping(value="/getTransactionByVendor/{vendor}")
 	public PaymentResponse getTransaction(@PathVariable String vendor) {
+		System.out.println("Jenkins Build 2");
 		return service.getTx(vendor);
 		
 	}

@@ -21,6 +21,7 @@ public class PaymentController {
 	
 	@PostMapping(value="/payNow")
 	public PaymentResponse payTransaction(@RequestBody Payment payment) {
+		System.out.println("Suresh Jenkins Test");
 		return service.pay(payment);
 	}
 

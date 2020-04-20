@@ -10,6 +10,7 @@ public class TestController {
 	public String viewt() {
 		log.log(Level.ALL, this.viewt(), "Message");
 		System.out.println("Jenkins 3");
+		System.out.println("Jenkins 4");
 		return "Vendor";
 	}
 	

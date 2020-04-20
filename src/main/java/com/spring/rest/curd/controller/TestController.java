@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 public class TestController {
 
-	Logger log= Logger.getLogger("TestController");
+	//Logger log= Logger.getLogger("TestController");
 	
 	public String viewt() {
 		log.log(Level.ALL, this.viewt(), "Message");

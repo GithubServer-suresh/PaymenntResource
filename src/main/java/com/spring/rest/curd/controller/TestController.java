@@ -7,9 +7,4 @@ public class TestController {
 		return "Vendor";
 	}
 	
-	public String let() {
-		return "";
-	}
-	
-	
 }
